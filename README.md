@@ -9,7 +9,7 @@ make_tuples function
 **Tests** | **1** | **2** | **3**
 --- | --- | --- | --- 
 **Input arguments:** | `[200, 300, 100, "done"]` | `[2200, 2500, 2700, 2900, "done"]` | `[1500.25, 1700.50, 1900.75, "done"]` 
-**Return:** | `200` | `2600` | `1700.50` 
+**Return:** | `200.0` | `2600.0` | `1700.5` 
 **Validity** | :white_check_mark: | :white_check_mark: | :white_check_mark: 
 
 &nbsp;
