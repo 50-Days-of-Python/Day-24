@@ -1,16 +1,15 @@
-# Day-21
+# Day-24
 
-### List of Tuples
-Write a function called `make_tuples` that takes two lists, `equal lists`, and combines them into a list of tuples.   
-For example, if list **a** is **[1,2,3,4]** and list **b** is **[5,6,7,8]**, your function should return **[(1,5), (2,6), (3,7), (4,8)]**.
+### Average Calories
+Create a function called **average_calories** that calculates the average calories intake of a user. The function should ask the user to input their calories intake for `any` number of days and once they hit `‘done’` it should calculate and **return** the average intake.
 
 
 make_tuples function
 
 **Tests** | **1** | **2** | **3**
 --- | --- | --- | --- 
-**Input arguments:** | `[1,2,3,4], [5,6,7,8]` | `[1,2.5,3,4], [5,6,7,8]` | `['a','b','c','d'], ['e','f','g','h']` 
-**Return:** | `[(1,5), (2,6), (3,7), (4,8)]` | `[(1,5), (2.5,6), (3,7), (4,8)]` | `[('a','e'), ('b','f'), ('c','g'), ('d','h')]` 
+**Input arguments:** | `[200, 300, 100, "done"]` | `[2200, 2500, 2700, 2900, "done"]` | `[1500.25, 1700.50, 1900.75, "done"]` 
+**Return:** | `200` | `2600` | `1700.50` 
 **Validity** | :white_check_mark: | :white_check_mark: | :white_check_mark: 
 
 &nbsp;
@@ -34,11 +33,9 @@ You can always change your code. So don't be disappointed if your code fails, **
 <details>
 <summary>Hint</summary>
 <br>
-https://www.w3schools.com/python/python_lists.asp<br>
-https://www.geeksforgeeks.org/python-list-comprehension/<br>
-https://www.w3schools.com/python/python_functions.asp<br>
-https://www.w3schools.com/python/python_conditions.asp<br>
-https://www.w3schools.com/python/python_return.asp
+https://www.w3schools.com/python/python_type_casting.asp<br>
+https://www.geeksforgeeks.org/loops-in-python/<br>
+https://www.geeksforgeeks.org/arithmetic-operators-python/
 <br>
 </details>
 
