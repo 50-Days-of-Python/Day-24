@@ -5,5 +5,5 @@ def test1():
 def test2():
     assert main.average_calories([200, 300, 100, "done"]) == 200.0
 def test3():
-    assert main.average_calories([1500.25, 1700.50, 1900.75, "done"]) == 1700.50
+    assert main.average_calories([1500.25, 1700.50, 1900.75, "done"]) == 1700.5
 
