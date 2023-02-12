@@ -1,6 +1,5 @@
-def make_tuples(*lists):
-  new_list = []
-  # Insert code below
+def average_calories(calories):
+  average = 0
+  #write your code here
   
-  # Insert code above
-  return new_list
+  return average
